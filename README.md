@@ -3,8 +3,10 @@ Smart era. Smart Solution
 
 Steps:
 
-Run command
- <code>npm install</code>
+1. Run command
+	 <code>npm install</code>
+2. Run MongoDB Server (Go to Server dir) and run command on console
+	<code> mongod </code>
 
-then run coommand
+3. Run coommand
 	<code>npm run start-dev</code>
