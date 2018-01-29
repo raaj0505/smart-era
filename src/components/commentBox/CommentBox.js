@@ -58,7 +58,7 @@ class CommentBox extends Component{
 
     componentDidMount(){
         this.loadCommentFromServer();
-        setInterval(this.loadCommentFromServer, this.props.pollInterval)
+        //setInterval(this.loadCommentFromServer, this.props.pollInterval)
     }
 
     render(){
